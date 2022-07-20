@@ -32,7 +32,7 @@ Console.WriteLine($"Расстояние между точками = {Lenth}");*
 Задача 23
 Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 3 -> 1, 8, 27
-5 -> 1, 8, 27, 64, 125*/
+5 -> 1, 8, 27, 64, 125
 
 
 void NambersCube (int num)
@@ -46,4 +46,21 @@ void NambersCube (int num)
 }
 Console.Write("Введите целое положительное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-NambersCube(number);
+NambersCube(number);*/
+
+
+
+
+/*
+Задача 19
+Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
+14212 -> нет
+12821 -> да
+23432 -> да*/
+
+
+bool Polindrom (int nam)
+{
+   int man=nam%10
+   int man2=man%10
+}

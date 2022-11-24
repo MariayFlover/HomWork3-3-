@@ -57,8 +57,8 @@ NambersCube(number);
 14212 -> нет
 12821 -> да
 23432 -> да
+*/
 
-/*
 void Polindrom (int number)
 {  
    while(number!=0)
@@ -75,7 +75,7 @@ void Polindrom (int number)
 Console.Write("Введите целое положительное пятизначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 Polindrom (number);
-*/
+
 
 
 

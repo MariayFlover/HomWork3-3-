@@ -24,8 +24,8 @@ Console.Write("Введите значение координаты z точки
 int z2 = Convert.ToInt32(Console.ReadLine());
 
 double Lenth = Lenth3D(x1, x2, y1, y2, z1, z2);
-Console.WriteLine($"Расстояние между точками = {Lenth}");*/
-
+Console.WriteLine($"Расстояние между точками = {Lenth}");
+*/
 
 
 /*
@@ -46,7 +46,7 @@ void NambersCube (int num)
 }
 Console.Write("Введите целое положительное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-NambersCube(number);*/
+NambersCube(number);
 
 
 
@@ -56,11 +56,26 @@ NambersCube(number);*/
 Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 14212 -> нет
 12821 -> да
-23432 -> да*/
+23432 -> да
 
+/*
+void Polindrom (int number)
+{  
+   while(number!=0)
+   {
+     int mun = number % 10;
+     {
+        if(mun==number) Console.Write("введенное число является полиндромом ");
+        else Console.Write("введенное число не является полиндромом: ");
 
-bool Polindrom (int nam)
-{
-   int man=nam%10
-   int man2=man%10
+      }
+      
+   }
 }
+Console.Write("Введите целое положительное пятизначное число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+Polindrom (number);
+*/
+
+
+
